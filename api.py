@@ -1,6 +1,10 @@
+mport requests
 import json
-import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
+
+class PetFriends:
+    def __init__(self):
+        self.base_url = 'https://petfriends.skillfactory.ru/'
 
 #Получение информации об одном животном:
 
